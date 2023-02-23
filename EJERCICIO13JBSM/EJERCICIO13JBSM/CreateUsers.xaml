@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EJERCICIO13JBSM.CreateUsers">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nombres:" FontSize="16" Padding="0,0,0,0" TextColor="Black"/>
+            <Entry x:Name="txtnombres" Placeholder="Ingrese su nombre" Keyboard="Text" TextColor="Black" Margin="5,0,5,0"/>
+
+            <Label Text="Apellidos:" FontSize="16" Padding="0,0,0,0" TextColor="Black"/>
+            <Entry x:Name="txtapellidos" Placeholder="Ingrese su apellido" Keyboard="Text" TextColor="Black" Margin="5,0,5,0"/>
+
+            <Label Text="Edad:" FontSize="16" Padding="0,0,0,0" TextColor="Black"/>
+            <Entry x:Name="txtedad" Placeholder="Ingrese su edad" Keyboard="Numeric" TextColor="Black" Margin="5,0,5,0"/>
+
+            <Label Text="Correo electronico:" FontSize="16" Padding="0,0,0,0" TextColor="Black"/>
+            <Entry x:Name="txtcorreo" Placeholder="Ingrese su correo" Keyboard="Text" TextColor="Black" Margin="5,0,5,0"/>
+
+            <Label Text="Direccion:" FontSize="16" Padding="0,0,0,0" TextColor="Black"/>
+            <Entry x:Name="txtdireccion" Placeholder="Ingrese su direccion" Keyboard="Text" TextColor="Black" Margin="5,0,5,0"/>
+
+            <Button Text="Registrar" x:Name="btnregistrar" Margin="10,0,10,0" Clicked="btnregistrar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

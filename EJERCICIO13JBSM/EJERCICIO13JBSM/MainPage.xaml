@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EJERCICIO13JBSM.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#26bd3f" Padding="16" CornerRadius="0">
+            <Label Text="Ejercicio 1.3" HorizontalTextAlignment="Center" TextColor="White" FontSize="30"/>
+        </Frame>
+        <Button Text="Registrar Personas" x:Name="btnregistrar" Margin="15,0,10,0" Clicked="btnregistrar_Clicked"/>
+        <Button Text="Listar Personas" x:Name="btnlistar" Margin="15,0,10,0" Clicked="btnlistar_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
